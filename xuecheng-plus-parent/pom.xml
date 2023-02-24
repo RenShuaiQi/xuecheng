@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-annotations</artifactId>
-                <version>${swagger-annotations.version}</version>
+                <versio>${swagger-annotations.version}</versio>
             </dependency>
             <!-- Servlet 容器管理 -->
             <dependency>
