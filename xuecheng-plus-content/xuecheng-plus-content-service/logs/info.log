@@ -1,0 +1,1038 @@
+2023-03-02 10:03:33,276 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:03:33,276 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:03:33,280 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:03:33,280 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:03:33,286 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:03:33,286 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:03:33,288 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:03:33,292 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:03:33,292 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:03:33,316 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:03:33,316 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:03:33,338 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 15708 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:03:33,338 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 15708 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:03:33,339 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:03:33,339 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:03:33,340 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:03:33,340 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:03:33,421 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:03:33,421 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:03:33,426 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:03:33,426 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:03:33,427 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:03:33,718 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:03:33,718 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:03:33,962 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:03:33,962 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:03:34,115 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4ed5a1b0'
+2023-03-02 10:03:34,115 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4ed5a1b0'
+2023-03-02 10:03:34,198 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:03:34,198 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:03:34,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:03:34,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:03:34,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:03:34,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:03:34,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:03:34,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:03:34,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:03:34,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:03:34,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:03:34,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:03:34,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:03:34,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:03:34,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:03:34,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:03:34,244 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:03:34,244 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:03:34,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:03:34,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:03:34,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:03:34,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:03:34,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:03:34,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:03:34,255 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:03:34,255 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:03:34,258 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:03:34,258 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:03:34,261 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:03:34,261 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:03:34,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:03:34,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:03:34,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:03:34,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:03:34,266 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:03:34,266 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:03:34,277 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:03:34,277 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:03:34,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:03:34,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:03:34,281 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:03:34,281 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:03:34,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:03:34,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:03:34,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:03:34,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:03:34,287 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:03:34,287 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:03:34,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:03:34,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:03:34,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:03:34,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:03:34,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:03:34,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:03:34,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:03:34,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:03:34,294 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:03:34,294 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:03:34,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:03:34,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:03:34,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:03:34,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:03:34,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:03:34,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:03:34,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:03:34,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:03:34,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:03:34,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:03:34,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:03:34,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:03:34,306 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:03:34,306 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:03:34,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:03:34,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:03:34,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:03:34,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:03:34,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:03:34,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:03:34,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:03:34,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:03:34,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:03:34,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:03:34,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:03:34,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:03:34,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:03:34,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:03:34,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:03:34,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:03:34,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:03:34,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:03:34,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:03:34,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:03:34,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:03:34,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:03:34,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:03:34,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:03:34,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:03:34,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:03:34,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:03:34,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:03:34,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:03:34,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:03:34,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:03:34,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:03:34,345 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:03:34,345 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:03:34,346 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:03:34,346 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:03:34,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:03:34,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:03:34,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:03:34,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:03:34,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:03:34,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:03:34,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:03:34,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:03:34,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:03:34,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:03:34,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:03:34,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:03:34,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:03:34,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:03:34,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:03:34,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:03:34,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:03:34,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:03:34,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:03:34,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:03:34,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:03:34,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:03:34,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:03:34,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:03:34,380 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:03:34,380 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:03:34,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:03:34,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:03:34,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:03:34,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:03:34,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:03:34,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:03:34,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:03:34,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:03:34,388 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:03:34,388 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:03:34,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:03:34,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:03:34,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:03:34,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:03:34,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:03:34,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:03:34,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:03:34,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:03:34,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:03:34,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:03:34,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:03:34,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:03:34,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:03:34,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:03:34,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:03:34,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:03:34,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:03:34,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:03:34,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:03:34,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:03:34,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:03:34,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:03:34,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:03:34,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:03:34,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:03:34,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:03:34,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:03:34,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:03:34,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:03:34,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:03:34,428 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:03:34,428 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:03:34,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:03:34,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:03:34,430 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:03:34,430 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:03:35,092 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:03:35,092 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:03:35,099 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:03:35,099 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:03:35,100 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:03:35,100 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:03:35,100 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:03:35,100 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:03:35,101 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:03:35,101 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:03:35,101 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:03:35,101 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:03:35,102 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:03:35,102 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:03:35,102 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:03:35,102 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:03:35,102 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:03:35,102 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:03:35,103 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:03:35,103 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:03:35,104 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:03:35,105 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:03:35,311 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.335 seconds (JVM running for 3.48)
+2023-03-02 10:03:35,311 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.335 seconds (JVM running for 3.48)
+2023-03-02 10:03:35,506 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:03:35,506 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:03:35,508 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:03:35,508 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:03:35,509 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:03:35,510 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:03:35,511 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:03:35,512 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:03:35,513 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:03:35,514 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:03:35,514 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:03:35,514 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:03:35,662 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20a1b3ae
+2023-03-02 10:03:35,662 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20a1b3ae
+2023-03-02 10:03:35,663 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:03:35,663 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:03:35,669 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:03:35,669 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:03:35,687 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:03:35,687 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:03:35,716 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:03:35,716 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:03:35,745 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:03:35,745 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:03:35,746 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:03:35,746 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:03:35,747 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20a1b3ae: (connection evicted)
+2023-03-02 10:03:35,747 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20a1b3ae: (connection evicted)
+2023-03-02 10:03:35,753 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:03:35,753 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:03:35,754 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-03-02 10:03:35,754 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-03-02 10:05:53,254 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:05:53,254 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:05:53,258 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:05:53,258 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:05:53,265 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:05:53,265 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:05:53,266 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:05:53,266 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:05:53,267 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:05:53,267 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:05:53,267 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:05:53,267 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:05:53,271 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:05:53,271 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:05:53,297 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:05:53,297 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:05:53,317 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 3104 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:05:53,317 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 3104 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:05:53,318 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:05:53,318 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:05:53,319 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:05:53,319 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:05:53,407 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:05:53,407 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:05:53,413 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:05:53,414 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:05:53,414 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:05:53,414 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:05:53,414 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:05:53,742 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:05:53,742 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:05:53,976 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:05:53,976 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:05:54,144 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@3fa7df1'
+2023-03-02 10:05:54,144 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@3fa7df1'
+2023-03-02 10:05:54,230 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:05:54,230 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:05:54,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:05:54,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:05:54,239 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:05:54,239 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:05:54,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:05:54,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:05:54,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:05:54,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:05:54,270 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:05:54,270 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:05:54,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:05:54,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:05:54,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:05:54,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:05:54,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:05:54,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:05:54,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:05:54,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:05:54,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:05:54,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:05:54,281 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:05:54,281 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:05:54,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:05:54,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:05:54,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:05:54,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:05:54,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:05:54,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:05:54,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:05:54,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:05:54,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:05:54,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:05:54,293 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:05:54,293 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:05:54,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:05:54,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:05:54,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:05:54,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:05:54,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:05:54,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:05:54,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:05:54,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:05:54,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:05:54,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:05:54,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:05:54,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:05:54,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:05:54,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:05:54,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:05:54,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:05:54,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:05:54,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:05:54,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:05:54,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:05:54,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:05:54,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:05:54,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:05:54,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:05:54,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:05:54,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:05:54,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:05:54,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:05:54,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:05:54,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:05:54,323 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:05:54,323 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:05:54,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:05:54,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:05:54,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:05:54,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:05:54,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:05:54,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:05:54,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:05:54,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:05:54,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:05:54,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:05:54,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:05:54,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:05:54,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:05:54,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:05:54,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:05:54,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:05:54,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:05:54,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:05:54,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:05:54,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:05:54,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:05:54,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:05:54,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:05:54,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:05:54,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:05:54,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:05:54,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:05:54,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:05:54,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:05:54,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:05:54,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:05:54,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:05:54,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:05:54,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:05:54,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:05:54,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:05:54,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:05:54,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:05:54,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:05:54,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:05:54,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:05:54,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:05:54,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:05:54,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:05:54,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:05:54,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:05:54,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:05:54,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:05:54,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:05:54,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:05:54,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:05:54,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:05:54,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:05:54,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:05:54,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:05:54,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:05:54,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:05:54,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:05:54,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:05:54,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:05:54,386 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:05:54,386 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:05:54,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:05:54,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:05:54,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:05:54,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:05:54,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:05:54,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:05:54,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:05:54,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:05:54,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:05:54,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:05:54,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:05:54,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:05:54,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:05:54,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:05:54,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:05:54,405 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:05:54,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:05:54,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:05:54,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:05:54,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:05:54,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:05:54,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:05:54,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:05:54,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:05:54,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:05:54,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:05:54,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:05:54,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:05:54,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:05:54,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:05:54,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:05:54,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:05:54,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:05:54,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:05:54,425 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:05:54,425 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:05:55,111 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:05:55,111 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:05:55,117 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:05:55,117 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:05:55,117 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:05:55,117 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:05:55,118 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:05:55,118 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:05:55,119 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:05:55,119 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:05:55,119 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:05:55,120 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:05:55,120 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:05:55,120 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:05:55,120 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:05:55,122 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:05:55,123 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:05:55,123 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:05:55,123 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:05:55,123 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:05:55,338 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.414 seconds (JVM running for 3.587)
+2023-03-02 10:05:55,338 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.414 seconds (JVM running for 3.587)
+2023-03-02 10:05:55,542 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:05:55,542 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:05:55,544 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:05:55,544 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:05:55,544 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:05:55,544 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:05:55,545 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:05:55,546 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:05:55,547 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:05:55,548 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:05:55,549 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:05:55,550 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:05:55,550 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:05:55,550 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:05:55,550 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:05:55,718 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa22cc2
+2023-03-02 10:05:55,718 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa22cc2
+2023-03-02 10:05:55,724 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:05:55,724 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:05:55,730 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:05:55,730 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:05:55,748 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:05:55,748 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:05:55,774 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:05:55,774 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:05:55,803 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:05:55,803 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:05:55,803 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:05:55,803 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:05:55,804 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4aa22cc2: (connection evicted)
+2023-03-02 10:05:55,804 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4aa22cc2: (connection evicted)
+2023-03-02 10:05:55,809 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:05:55,809 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:05:55,809 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-03-02 10:05:55,809 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-03-02 10:06:19,533 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:06:19,533 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-02 10:06:19,537 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:06:19,537 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-02 10:06:19,542 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:06:19,542 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:06:19,543 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:06:19,543 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:06:19,544 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:06:19,544 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:06:19,544 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:06:19,544 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:06:19,548 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:06:19,548 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:06:19,570 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:06:19,570 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:06:19,590 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 20180 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:06:19,590 INFO [main][StartupInfoLogger.java:55] - Starting CourseBaseMapperTests on LAPTOP-MO8C0V0J with PID 20180 (started by 任帅奇 in D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service)
+2023-03-02 10:06:19,591 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:06:19,591 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-03-02 10:06:19,592 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:06:19,592 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-02 10:06:19,674 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:06:19,674 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:06:19,679 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:06:19,679 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:06:19,680 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:06:19,979 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:06:19,979 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-02 10:06:20,208 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:06:20,208 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-02 10:06:20,340 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@31da6b2e'
+2023-03-02 10:06:20,340 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@31da6b2e'
+2023-03-02 10:06:20,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:06:20,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-03-02 10:06:20,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:06:20,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-03-02 10:06:20,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:06:20,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-02 10:06:20,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:06:20,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-03-02 10:06:20,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:06:20,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-02 10:06:20,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:06:20,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-03-02 10:06:20,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:06:20,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-03-02 10:06:20,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:06:20,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-03-02 10:06:20,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:06:20,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-02 10:06:20,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:06:20,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-03-02 10:06:20,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:06:20,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-03-02 10:06:20,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:06:20,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-03-02 10:06:20,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:06:20,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-03-02 10:06:20,493 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:06:20,493 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-02 10:06:20,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:06:20,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-03-02 10:06:20,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:06:20,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-03-02 10:06:20,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:06:20,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-03-02 10:06:20,502 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:06:20,502 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-03-02 10:06:20,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:06:20,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-03-02 10:06:20,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:06:20,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-03-02 10:06:20,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:06:20,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-02 10:06:20,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:06:20,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-03-02 10:06:20,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:06:20,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-02 10:06:20,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:06:20,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-03-02 10:06:20,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:06:20,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-03-02 10:06:20,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:06:20,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-03-02 10:06:20,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:06:20,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-02 10:06:20,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:06:20,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-03-02 10:06:20,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:06:20,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-03-02 10:06:20,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:06:20,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-03-02 10:06:20,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:06:20,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-03-02 10:06:20,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:06:20,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-02 10:06:20,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:06:20,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-03-02 10:06:20,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:06:20,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-03-02 10:06:20,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:06:20,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-03-02 10:06:20,539 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:06:20,539 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-03-02 10:06:20,550 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:06:20,550 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-03-02 10:06:20,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:06:20,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-03-02 10:06:20,554 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:06:20,554 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-02 10:06:20,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:06:20,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-03-02 10:06:20,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:06:20,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-02 10:06:20,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:06:20,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-03-02 10:06:20,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:06:20,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-03-02 10:06:20,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:06:20,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-03-02 10:06:20,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:06:20,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-02 10:06:20,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:06:20,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-02 10:06:20,565 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:06:20,565 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-03-02 10:06:20,567 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:06:20,567 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-03-02 10:06:20,571 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:06:20,571 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-02 10:06:20,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:06:20,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-02 10:06:20,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:06:20,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-02 10:06:20,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:06:20,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-03-02 10:06:20,577 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:06:20,577 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-03-02 10:06:20,578 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:06:20,578 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-03-02 10:06:20,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:06:20,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-03-02 10:06:20,590 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:06:20,590 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-03-02 10:06:20,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:06:20,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-03-02 10:06:20,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:06:20,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-03-02 10:06:20,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:06:20,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-02 10:06:20,596 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:06:20,596 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-03-02 10:06:20,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:06:20,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-03-02 10:06:20,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:06:20,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-03-02 10:06:20,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:06:20,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-02 10:06:20,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:06:20,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-03-02 10:06:20,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:06:20,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-03-02 10:06:20,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:06:20,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-03-02 10:06:20,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:06:20,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-03-02 10:06:20,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:06:20,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-02 10:06:20,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:06:20,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-03-02 10:06:20,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:06:20,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-03-02 10:06:20,616 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:06:20,616 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-03-02 10:06:20,617 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:06:20,617 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-03-02 10:06:20,626 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:06:20,626 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-03-02 10:06:20,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:06:20,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-03-02 10:06:20,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:06:20,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-02 10:06:20,631 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:06:20,631 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-02 10:06:20,632 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:06:20,632 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-02 10:06:20,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:06:20,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-03-02 10:06:20,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:06:20,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-03-02 10:06:20,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:06:20,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-03-02 10:06:20,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:06:20,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-02 10:06:20,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:06:20,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-02 10:06:20,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:06:20,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-02 10:06:20,647 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:06:20,647 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-02 10:06:20,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:06:20,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-02 10:06:20,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:06:20,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-02 10:06:20,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:06:20,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-02 10:06:20,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:06:20,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-03-02 10:06:20,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:06:20,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-02 10:06:20,661 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:06:20,661 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-03-02 10:06:21,353 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:06:21,353 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-02 10:06:21,361 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:06:21,361 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-02 10:06:21,362 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:06:21,362 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-02 10:06:21,362 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:06:21,362 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-02 10:06:21,363 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:06:21,363 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-02 10:06:21,363 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:06:21,363 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-02 10:06:21,364 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:06:21,364 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-02 10:06:21,364 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:06:21,364 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-02 10:06:21,364 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:06:21,364 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-02 10:06:21,365 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:06:21,365 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:06:21,367 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-02 10:06:21,368 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:06:21,368 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-02 10:06:21,368 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:06:21,368 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-02 10:06:21,565 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.308 seconds (JVM running for 3.27)
+2023-03-02 10:06:21,565 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.308 seconds (JVM running for 3.27)
+2023-03-02 10:06:21,720 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:06:21,720 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:06:21,722 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:06:21,723 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:06:21,724 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://localhost:3306/xuecheng?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:06:21,725 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:06:21,726 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:06:21,727 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2023-03-02 10:06:21,728 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:06:21,728 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2023-03-02 10:06:21,728 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:06:21,728 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-03-02 10:06:21,868 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@288f173f
+2023-03-02 10:06:21,868 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@288f173f
+2023-03-02 10:06:21,869 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:06:21,869 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-03-02 10:06:21,875 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:06:21,875 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-03-02 10:06:21,894 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:06:21,894 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 74(Long)
+2023-03-02 10:06:21,915 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:06:21,915 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-03-02 10:06:21,934 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:06:21,934 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-03-02 10:06:21,934 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:06:21,934 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=1, active=0, idle=1, waiting=0)
+2023-03-02 10:06:21,935 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@288f173f: (connection evicted)
+2023-03-02 10:06:21,935 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@288f173f: (connection evicted)
+2023-03-02 10:06:21,940 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:06:21,940 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-03-02 10:06:21,940 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-03-02 10:06:21,940 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

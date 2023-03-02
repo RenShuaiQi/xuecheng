@@ -42,6 +42,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--cloud的基础环境包-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-context</artifactId>
+                <version>2.2.6.RELEASE</version>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -55,7 +61,7 @@
                 <artifactId>lombok</artifactId>
                 <version>${org.projectlombok.version}</version>
             </dependency>
-            <!-- mapstruct 代码生成器，简化java bean之间的映射 -->
+<!--            &lt;!&ndash; mapstruct 代码生成器，简化java bean之间的映射 &ndash;&gt;
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct-jdk8</artifactId>
@@ -65,11 +71,11 @@
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct-processor</artifactId>
                 <version>${org.mapstruct.version}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-annotations</artifactId>
-                <versio>${swagger-annotations.version}</versio>
+                <version>${swagger-annotations.version}</version>
             </dependency>
             <!-- Servlet 容器管理 -->
             <dependency>

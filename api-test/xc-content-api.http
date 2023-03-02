@@ -1,0 +1,11 @@
+### 课程查询接口
+POST http://{{content_host}}/content/course/list
+Content-Type: application/json
+
+{
+  "auditStatus": "auditStatus_6ci61",
+  "courseName": "courseName_s7fxf",
+  "publishStatus": "publishStatus_5bl4w",
+  "pageNo": 1,
+  "pageSize": 1
+}

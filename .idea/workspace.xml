@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e8d846d-5471-41d9-b50f-be562d85031a" name="Changes" comment="基本架构搭建">
+      <change afterPath="$PROJECT_DIR$/api-test/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/config/LocalDateTimeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/ContentApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/QueryCourseParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/QueryCourseParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/CourseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/CourseMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/CourseTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/Teachplan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/TeachplanMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseMarketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseTeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMediaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseTeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanMediaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseMarketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseTeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanMediaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/CourseMarketMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/CourseTeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/TeachplanMediaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/CourseBaseMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseMarketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseMarketMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseTeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/CourseTeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMediaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMediaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/BankCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/CommonCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/ContentCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/LearningCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/MediaCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/MessageCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/OrderCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/SystemCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/xuecheng/generator/UcenterCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/controller.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/controller.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/dao.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.kt.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.kt.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/entity.kt.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.xml.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/service.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/serviceImpl.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/serviceImpl.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/default/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources/templates/serviceImpl.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\environment\apache-maven-3.8.1\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../environment/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\environment\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MAMFQ7tcDeBwPr3JwTIlDmOoMS" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27471265" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content" />
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-generator\src\main\java\com\xuecheng\content\mapper" />
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-api\src\main\resources" />
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\src\main\resources\mapper" />
+      <recent name="D:\ideaProjects\xuecheng\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.content" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ContentApiApplication">
+    <configuration name="ContentCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.generator.ContentCodeGenerator" />
+      <module name="xuecheng-plus-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-content-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CourseBaseMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseBaseMapperTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBaseMapperTests.testCourseBaseMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseBaseMapperTests" />
+      <option name="METHOD_NAME" value="testCourseBaseMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuecheng-plus-content-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.ContentApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XuechengPlusContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuecheng-plus-content" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.XuechengPlusContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XuechengPlusContentModeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuecheng-plus-content-model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.XuechengPlusContentModeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XuechengPlusContentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuecheng-plus-content-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.XuechengPlusContentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ContentCodeGenerator" />
+      <item itemvalue="Spring Boot.ContentApiApplication" />
+      <item itemvalue="Spring Boot.XuechengPlusContentApplication" />
+      <item itemvalue="Spring Boot.XuechengPlusContentModeApplication" />
+      <item itemvalue="Spring Boot.XuechengPlusContentServiceApplication" />
+      <item itemvalue="JUnit.CourseBaseMapperTests.testCourseBaseMapper" />
+      <item itemvalue="JUnit.CourseBaseMapperTests" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="HTTP Request.xc-content-api#1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.xc-content-api#1" />
+        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="JUnit.CourseBaseMapperTests.testCourseBaseMapper" />
+        <item itemvalue="JUnit.CourseBaseMapperTests" />
+        <item itemvalue="Application.ContentCodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e8d846d-5471-41d9-b50f-be562d85031a" name="Changes" comment="" />
+      <created>1677205829866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677205829866</updated>
+      <workItem from="1677205831228" duration="2289000" />
+      <workItem from="1677218852112" duration="11885000" />
+      <workItem from="1677230980683" duration="2132000" />
+      <workItem from="1677399672621" duration="2895000" />
+      <workItem from="1677547234241" duration="1187000" />
+      <workItem from="1677663691064" duration="609000" />
+      <workItem from="1677720247936" duration="5077000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本架构搭建">
+      <created>1677205978155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677205978155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基本架构搭建">
+      <created>1677206145462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677206145462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本架构搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本架构搭建" />
+  </component>
+</project>
